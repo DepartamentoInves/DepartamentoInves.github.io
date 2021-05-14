@@ -8,9 +8,6 @@
     <title>Formulario</title>
 </head>
 <body>
-     <script src="Js/ident.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-auth.js"></script>
     <form action="">
         <img class="logo" src="static/logo.png" alt="UTN">
         <p>*Nombre del responsable</p>       
@@ -27,5 +24,23 @@
         <p>Favor de revisar los datos antes de enviar</p>
         <input type="submit" value="Enviar" >
     </form>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-auth.js"></script>
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyALlmuQk-drJKkiKU16ZMbAyJ8LCA1kaTo",
+    authDomain: "formulario-de-investigacion.firebaseapp.com",
+    projectId: "formulario-de-investigacion",
+    storageBucket: "formulario-de-investigacion.appspot.com",
+    messagingSenderId: "847861615199",
+    appId: "1:847861615199:web:90808530581e000548e9ea",
+    measurementId: "G-2LBXNDB8WN"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </body>
 </html>
