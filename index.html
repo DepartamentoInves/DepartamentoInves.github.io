@@ -1,32 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Formulario</title>
-     <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-auth.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
-    <script src="Js/ident.js"> </script>
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
 </head>
-<body>
-    <form action="">
-        <img class="logo" src="static/logo.png" alt="UTN">
-        <p>*Nombre del responsable</p>       
-        <input type="text" required>
-        <p>*Nombre de la empresa</p>
-        <input type="text" required>
-        <p>*Correo de contacto</p>
-        <input type="email" required>
-        <p>*Telefono de contacto</p>
-        <input type="number" required>
-        <p>Selecciona tipo</p>
-        <input type="radio" name="tipe" id="" required>Oficina <br>
-        <input type="radio" name="tipe" id="" required>Planta 
-        <p>Favor de revisar los datos antes de enviar</p>
-        <input type="submit" value="Enviar" >
-    </form>
+
+<body style="text-align: center; align-items: center;">
+
+    <img src="./imgs/logo UTN sin fondo.gif" class="img-thumbnail" alt="..."
+width="150px" height="150px" style="margin-top: 3rem;">
+
+<div class="mb-3" >
+    <label for="formGroupExampleInput" class="form-label">Nombre</label>
+    <input type="text" style="width: 50%; margin-left: 20rem;" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+  </div>
+  <div class="mb-3">
+    <label for="formGroupExampleInput2" class="form-label">Contraseña</label>
+    <input type="text" style="width: 50%; margin-left: 20rem;" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+  </div>
+
 </body>
 </html>
